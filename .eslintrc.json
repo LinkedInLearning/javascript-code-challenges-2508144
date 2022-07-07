@@ -16,6 +16,9 @@
         ],
         "no-console": [
             0
+        ],
+        "no-multiple-empty-lines": [
+            2
         ]
     }
 }

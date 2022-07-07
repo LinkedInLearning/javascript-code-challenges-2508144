@@ -17,7 +17,6 @@ function uncensor2(infected, discovered) {
 }
 
 
-
 const { assert } = require('chai'); 
 
 describe("Tests", function() {

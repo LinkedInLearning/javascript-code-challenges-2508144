@@ -9,7 +9,6 @@ function isAllPossibilities(x){
 }
 	
 
-
 const { assert } = require('chai'); 
 
 describe("Tests", () =>{

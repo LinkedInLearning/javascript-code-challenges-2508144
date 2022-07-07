@@ -12,7 +12,6 @@ function redistributeWealth(wealth) {
 }
 
 
-
 const { assert, config } = require('chai'); 
 config.truncateThreshold = 0;
 

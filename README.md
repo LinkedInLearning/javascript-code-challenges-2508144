@@ -26,7 +26,7 @@ So rätseln Sie mit:
 1. Sehen Sie sich im Kurs auf LinkedIn Learning die Aufgabenstellung an
 2. Wechseln Sie in den Branch *main* und öffnen Sie die passenden Datei im Order *test*
 3. Geben Sie Ihren Antwortcode an der ausgewiesenen Stelle ein
-4. Starten Sie das Testframework im Hauptverzeichnis mit dem Befehl ``npm run test test/<name_der_datei.js>``
+4. Starten Sie das Testframework im Hauptverzeichnis mit dem Befehl ``npm run test challenges/<name_der_datei.js>``
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 

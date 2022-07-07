@@ -4,7 +4,7 @@
   "description": "Code challenges with test code",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha challenges"
   },
   "repository": {
     "type": "git",

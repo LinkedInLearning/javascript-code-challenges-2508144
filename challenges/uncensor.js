@@ -18,7 +18,6 @@ function uncensor2(infected, discovered) {
 
 
 const { assert } = require('chai'); 
-
 describe("Tests", function() {
   it("tests", () => {
     assert.deepEqual(uncensor('H*l** W*l*', 'aloet'), 'Hallo Welt');

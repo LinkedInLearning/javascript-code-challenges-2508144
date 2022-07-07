@@ -10,7 +10,6 @@ function isAllPossibilities(x){
 	
 
 const { assert } = require('chai'); 
-
 describe("Tests", () =>{
   it("tests", () =>{
     assert.equal(isAllPossibilities([0,1,2,3,4,5]),true);

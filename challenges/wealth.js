@@ -12,9 +12,7 @@ function redistributeWealth(wealth) {
 }
 
 
-const { assert, config } = require('chai'); 
-config.truncateThreshold = 0;
-
+const { assert } = require('chai'); 
 describe("Tests", function(){
   it("tests", () => {
     assert.deepEqual(redistributeWealth([3,3,3,3]), [3,3,3,3]);

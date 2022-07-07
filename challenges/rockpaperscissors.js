@@ -13,7 +13,6 @@ const rps = (p1, p2) => {
 }
 
 const { assert } = require('chai'); 
-
 describe('Tests', () => {
   it("tests", () => {
     assert.equal(rps('rock', 'scissors'), 1);

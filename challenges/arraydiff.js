@@ -5,7 +5,6 @@ function arrayDiff(a, b) {
 }
 
 const { assert } = require('chai'); 
-
 describe("Tests", () => {
   it("tests", () => {
     assert.deepEqual(arrayDiff([1,2], [1]), [2]);

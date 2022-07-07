@@ -1,39 +1,31 @@
 const rps = (p1, p2) => {
   // Write your code here
 
-  if (p1 === p2) return "Draw!";
+  if (p1 === p2) return 0;
 
   var rules = { rock: "scissors", paper: "rock", scissors: "paper" };
   if (p2 === rules[p1]) {
-    return "Player 1 won!";
+    return 1;
   }
   else   {
-    return "Player 2 won!";
+    return 2;
   }
 }
 
-const chai = require("chai");
-const assert = chai.assert;
-chai.config.truncateThreshold = 0;
+const { assert } = require('chai'); 
 
-describe('rock paper scissors', function () {
-  const getMsg = (n) => `Player ${n} won!`;
+describe('Tests', () => {
+  it("tests", () => {
+    assert.equal(rps('rock', 'scissors'), 1);
+    assert.equal(rps('scissors', 'paper'), 1);
+    assert.equal(rps('paper', 'rock'), 1);
 
-  it('player 1 win', function () {
-    assert.equal(rps('rock', 'scissors'), getMsg(1));
-    assert.equal(rps('scissors', 'paper'), getMsg(1));
-    assert.equal(rps('paper', 'rock'), getMsg(1));
-  });
+    assert.equal(rps('scissors', 'rock'), 2);
+    assert.equal(rps('paper', 'scissors'), 2);
+    assert.equal(rps('rock', 'paper'), 2);
 
-  it('player 2 win', function () {
-    assert.equal(rps('scissors', 'rock'), getMsg(2));
-    assert.equal(rps('paper', 'scissors'), getMsg(2));
-    assert.equal(rps('rock', 'paper'), getMsg(2));
-  });
-
-  it('draw', function () {
-    assert.equal(rps('rock', 'rock'), 'Draw!');
-    assert.equal(rps('scissors', 'scissors'), 'Draw!');
-    assert.equal(rps('paper', 'paper'), 'Draw!');
+    assert.equal(rps('rock', 'rock'), 0);
+    assert.equal(rps('scissors', 'scissors'), 0);
+    assert.equal(rps('paper', 'paper'), 0);
   });
 });

@@ -10,13 +10,12 @@ function isAllPossibilities(x){
 	
 
 
-const chai = require("chai");
-const assert = chai.assert;
-chai.config.truncateThreshold = 0;
+const { assert } = require('chai'); 
 
-describe("Possiblities Array", () =>{
-  it("sample tests", () =>{
-    assert.strictEqual(isAllPossibilities([0,1,2,3]),true);
-    assert.strictEqual(isAllPossibilities([1,2,3,4]),false);
+describe("Tests", () =>{
+  it("tests", () =>{
+    assert.equal(isAllPossibilities([0,1,2,3,4,5]),true);
+    assert.equal(isAllPossibilities([1,2,3,4]),false);
+    assert.equal(isAllPossibilities([0,1,3,4]), false);
   });
 });

@@ -18,25 +18,12 @@ function uncensor2(infected, discovered) {
 
 
 
-const chai = require("chai");
-const assert = chai.assert;
+const { assert } = require('chai'); 
 
-describe("Ce*s*r*d Strings", function() {
-  function test([infected, discovered, answer]) {
-    it(`infected = "${infected}", discovered = "${discovered}"`, () => {
-      assert.strictEqual(uncensor(infected, discovered), answer)
-    })
-  }
-
-  describe("Example Tests", () => {
-    let data = [
-      ['*h*s *s v*ry *tr*ng*', 'Tiiesae', 'This is very strange'],
-      ['A**Z*N*', 'MAIG', 'AMAZING'],
-      ['xyz', '', 'xyz'],
-      ['', '', ''],
-      ['***', 'abc', 'abc']
-    ];
-
-    data.forEach(test);
+describe("Tests", function() {
+  it("tests", () => {
+    assert.deepEqual(uncensor('H*l** W*l*', 'aloet'), 'Hallo Welt');
+    assert.deepEqual(uncensor('G*h*im*r T*xt', 'eeee'), 'Geheimer Text');
+    assert.deepEqual(uncensor('J*v**c*ipt r*l*z*', 'aaSrue!'), 'JavaScript rulez!');
   });
 });

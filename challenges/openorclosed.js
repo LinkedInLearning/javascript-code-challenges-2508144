@@ -13,11 +13,6 @@ function isOpen(timestamp) {
 
   const date = new Date(timestamp);
 
-  // const isSometimeOpen = openingHours[date.getDay()].map((value,index) => {
-  //   console.log(index, value);
-  //   return (index % 2 === 0) ? (date.getHours() >= value) : (date.getHours() < value);
-  // });
-
   for (let i = 0; i < openingHours[date.getDay()].length; i += 2) {
     if (
       date.getHours() >= openingHours[date.getDay()][i] &&

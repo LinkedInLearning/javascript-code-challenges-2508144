@@ -1,4 +1,6 @@
 function isIban(iban) {
+  // Write your code here
+  
   const rearranged = iban.substring(4, iban.length) + iban.substring(0, 4);
   const numeric = Array.from(rearranged).map(c => (isNaN(parseInt(c)) ? (c.charCodeAt(0) - 64 + 9).toString() : c)).join('');
   const remainder = Array.from(numeric).map(c => parseInt(c)).reduce((remainder, value) => (remainder * 10 + value) % 97, 0);

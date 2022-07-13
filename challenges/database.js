@@ -1,17 +1,28 @@
-var sqlite3 = require('sqlite3').verbose();
-var file = "databse.db";
-var db = new sqlite3.Database(file);
-// db.all("CREATE TABLE coupons (coupon TEXT PRIMARY KEY); ", function (err, rows) {
-//   console.log("done")
-// });
+function isValid(coupon) {
+  // Write your code here
 
-// db.all("INSERT INTO coupons ('coupon') VALUES ('randomstring') ", function (err, rows) {
-//   console.log("done")
-// });
+  return new Promise((resolve, reject) => {
+    const sqlite3 = require('sqlite3').verbose();
+    const db = new sqlite3.Database("challenges/databse.db");
+    const sql = "SELECT * FROM coupons WHERE coupon = ? AND valid = 1";
 
-db.all("SELECT coupon FROM coupons", function (err, rows) {
-  rows.forEach(function (row) {
-    console.log(row.coupon);
-  })
+    db.all(sql, coupon, function (error, rows) {
+      db.close();
+      if (error) {
+        reject(error);
+      }
+
+      resolve((rows.length === 1));
+    });
+  });
+}
+
+const { expect } = require('chai');
+describe("Tests", async () => {
+  it("tests", async () => {
+    expect(await isValid('692784')).to.equal(true);
+    expect(await isValid('567237')).to.equal(true);
+    expect(await isValid('454896')).to.equal(false);
+    expect(await isValid('111')).to.equal(false);
+  });
 });
-db.close();

@@ -1,36 +1,29 @@
 function rover(way) {
   // Write your code here
 
-  const position = { x: 0, y: 0 };
-  let direction = 0;
+  const pos = { x: 0, y: 0, dir: 0 };
+  const directions = { 'r': 1, 'l': -1};
+  const forwards = { 
+    0: {x: 0, y: 1}, 
+    1: { x: 1, y: 0 }, 
+    2: { x: 0, y: -1 }, 
+    3: { x: -1, y: 0 } 
+  }
 
   way.split('').forEach((step) => {
-    switch (step) {
-    case 'r':
-      direction = (direction + 1) % 4;
-      break;
-    case 'l':
-      direction = (direction - 1) % 4;
-      break;
-    default:
-      switch(direction) {
-      case 0:
-        position.y++;
-        break;
-      case 1:
-        position.x++;
-        break;
-      case 2:
-        position.y--;
-        break;
-      case 3:
-        position.x--;
-        break;
-      }
+
+    if( step == 'f') {
+      pos.x += forwards[pos.dir].x;
+      pos.y += forwards[pos.dir].y;
+      return;
     }
+    
+    pos.dir = (pos.dir + directions[step]) % 4;
+
   });
 
-  return position;
+  delete pos.dir;
+  return pos;
 }
 
 const { assert } = require('chai');

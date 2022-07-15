@@ -4,6 +4,7 @@ function isPassword(s) {
   return s.length >= 8 &&
 		/[a-z]/.test(s) &&
 		/[A-Z]/.test(s) &&
+    // eslint-disable-next-line no-useless-escape
     /[@$§!&%\/\(\)]/.test(s) &&
 		/\d/.test(s);
 }

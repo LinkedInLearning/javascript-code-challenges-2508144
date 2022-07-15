@@ -1,11 +1,7 @@
-function isAllPossibilities(x) {
+function isAllPossibilities(array) {
   // Write your code here
 
-  const r = [...new Set(x.sort().map((currentValue, index) => currentValue - index))];
-
-  return ((r.length == 1 && r[0] == 0));
-
-  // return x.length > 0 ? x.every((a,i) => x.includes(i)) : false;
+  return array.every((value, index) => array.includes(index)) ;
 }
 
 

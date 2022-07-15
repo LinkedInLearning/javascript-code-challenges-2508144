@@ -1,19 +1,8 @@
-function uncensor(infected, discovered) {
+function uncensor(infected, remedy) {
   // Write your code here
 
-  let disc = discovered.split('');
-
-  while(disc.length > 0){
-    infected = infected.replace('*', disc.shift())
-  }
-
-  return infected;
-}
-
-// eslint-disable-next-line no-unused-vars
-function uncensor2(infected, discovered) {
-  const arr = [...discovered]
-  return [...infected].map(el=> el === '*' ? arr.shift() : el).join('')
+  const cure = [...remedy]
+  return [...infected].map(elem => elem === '*' ? cure.shift() : elem).join('')
 }
 
 

@@ -1,7 +1,6 @@
 function isAllPossibilities(array) {
   // Write your code here
 
-  return array.every((value, index) => array.includes(index)) ;
 }
 
 

@@ -1,7 +1,6 @@
 function unique(ingredients) {
   // Write your code here
 
-  return Array.from(new Set(ingredients.flat())).sort();
 }
 
 

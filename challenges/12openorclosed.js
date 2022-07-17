@@ -1,28 +1,6 @@
 function isOpen(timestamp) {
   // Write your code here
 
-  const openingHours = {
-    0: [],
-    1: [8, 12, 14, 18],
-    2: [8, 12, 14, 18],
-    3: [8, 12],
-    4: [8, 12, 14, 20],
-    5: [8, 12, 14, 18],
-    6: [8, 13],
-  };
-
-  const date = new Date(timestamp);
-
-  for (let i = 0; i < openingHours[date.getDay()].length; i += 2) {
-    if (
-      date.getHours() >= openingHours[date.getDay()][i] &&
-      date.getHours() < openingHours[date.getDay()][i + 1]
-    ) {
-      return true;
-    }
-  }
-
-  return false;
 }
 
 

@@ -1,10 +1,6 @@
 function howOld(dates) {
   // Write your code here
 
-  const diff = dates.map(Date.parse).reduce((previous, current) => previous - current);
-  const years = new Date(Math.abs(diff)).getFullYear() - 1970;
-
-  return years;
 }
 
 const { assert } = require('chai');

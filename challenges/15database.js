@@ -1,20 +1,6 @@
 function isValid(coupon) {
   // Write your code here
 
-  return new Promise((resolve, reject) => {
-    const sqlite3 = require('sqlite3').verbose();
-    const db = new sqlite3.Database("challenges/databse.db");
-    const sql = "SELECT * FROM coupons WHERE coupon = ? AND valid = 1";
-
-    db.all(sql, coupon, function (error, rows) {
-      db.close();
-      if (error) {
-        reject(error);
-      }
-
-      resolve((rows.length === 1));
-    });
-  });
 }
 
 const { expect } = require('chai');

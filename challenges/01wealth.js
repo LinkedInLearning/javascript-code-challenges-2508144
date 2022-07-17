@@ -1,14 +1,6 @@
 function redistributeWealth(wealth) {
   // Write your code here
 
-  const total = wealth.reduce(
-    (prev, cur) => prev + cur,
-    0
-  );
-
-  const same = total / wealth.length;
-
-  return wealth.fill(same);
 }
 
 

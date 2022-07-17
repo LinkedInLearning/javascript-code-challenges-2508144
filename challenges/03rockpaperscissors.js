@@ -1,15 +1,6 @@
 const rps = (p1, p2) => {
   // Write your code here
 
-  if (p1 === p2) return 0;
-
-  var rules = { rock: "scissors", paper: "rock", scissors: "paper" };
-  if (p2 === rules[p1]) {
-    return 1;
-  }
-  else   {
-    return 2;
-  }
 }
 
 const { assert } = require('chai'); 

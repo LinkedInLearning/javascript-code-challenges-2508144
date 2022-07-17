@@ -1,8 +1,6 @@
 function uncensor(infected, remedy) {
   // Write your code here
 
-  const cure = [...remedy]
-  return [...infected].map(elem => elem === '*' ? cure.shift() : elem).join('')
 }
 
 

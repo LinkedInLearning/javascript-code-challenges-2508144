@@ -3,11 +3,10 @@ const rps = (p1, p2) => {
 
   if (p1 === p2) return 0;
 
-  var rules = { rock: "scissors", paper: "rock", scissors: "paper" };
+  const rules = { rock: "scissors", paper: "rock", scissors: "paper" };
   if (rules[p1] === p2) {
     return 1;
-  }
-  else   {
+  } else {
     return 2;
   }
 }

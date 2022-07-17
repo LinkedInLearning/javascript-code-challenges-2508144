@@ -3,7 +3,7 @@ function isValid(coupon) {
 
   return new Promise((resolve, reject) => {
     const sqlite3 = require('sqlite3').verbose();
-    const db = new sqlite3.Database("challenges/databse.db");
+    const db = new sqlite3.Database("challenges/database.db");
     const sql = "SELECT * FROM coupons WHERE coupon = ? AND valid = 1";
 
     db.all(sql, coupon, function (error, rows) {

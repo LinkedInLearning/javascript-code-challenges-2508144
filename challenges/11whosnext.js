@@ -17,9 +17,8 @@ describe("Tests", () => {
     ];
 
     assert.equal(whosnext(persons, '12 April'), 'Tanja');
-    // assert.equal(whosnext(persons, '1 October'), 'Laurin');
-    // assert.equal(whosnext(persons, '10 Dec'), 'Thomas');
-    // assert.deepEqual(whosnext(persons, '1 August'), ['Anne', 'Margarete']);
-
+    assert.equal(whosnext(persons, '1 October'), 'Laurin');
+    assert.equal(whosnext(persons, '10 Dec'), 'Thomas');
+    assert.deepEqual(whosnext(persons, '1 August'), ['Anne', 'Margarete']);
   });
 });

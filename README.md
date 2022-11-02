@@ -12,7 +12,7 @@ Die Installation und Aktivierung der Sandbox wird zum Start des Kurses ausführl
 
 Dieser Kurs ist in GitHub Codespaces integriert, eine sofort verfügbare Cloud-Entwicklungsumgebung, die alle Funktionen Ihrer bevorzugten IDE bietet, ohne dass Sie einen lokalen Rechner einrichten müssen. Mit Codespaces können Sie von jedem Rechner aus und zu jeder Zeit praktische Übungen durchführen - und dabei ein Tool verwenden, das Ihnen häufig in der Praxis begegnen wird. 
 
-Jede Folge der Level Up Serie bietet mindestens 12 praktische Übungen in verschiedenen Schwierigkeitsgraden, so dass Sie sich selbst herausfordern und das Gelernte festigen können. Schauen Sie sich das Video " Wie verwende ich GitHub Codespaces mit diesem Kurs?" an, um zu erfahren, wie man einen Codespace einrichtet und zum Einsatz bringt.
+Jede Folge der Code-Challenges-Serie bietet mindestens 12 praktische Übungen in verschiedenen Schwierigkeitsgraden, so dass Sie sich selbst herausfordern und das Gelernte festigen können. Schauen Sie sich das Video " Wie verwende ich GitHub Codespaces mit diesem Kurs?" an, um zu erfahren, wie man einen Codespace einrichtet und zum Einsatz bringt.
 
 So rätseln Sie mit:
 1. Sehen Sie sich im Kurs auf LinkedIn Learning die Aufgabenstellung an

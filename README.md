@@ -2,7 +2,7 @@
 
 Dies ist das Repository für den **LinkedIn Learning** Kurs `Code-Challenges für JavaScript`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-![COURSENAME][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![image](https://user-images.githubusercontent.com/61017085/199515008-d682573e-cd4d-46d9-b9c2-142f4f8f2dde.png) 
 
 Hinter den Code-Challenges stecken kompakte spannende Programmierrätsel auf unterschiedlichen Schwierigkeitsstufen, mit denen Sie Ihre JavaScript-Skills testen oder weitere neu hinzulernen können. Dazu zählen Reguläre Ausdrücke, Generator Functions, Array Reduce, Array Filter und andere praktische Themen aus dem Programmieralltag.
 Zu jeder Aufgabe liefert Ihr Trainer Thomas Rose gleich die passende Lösung, doch können Sie auch Ihren Lösungsweg ganz leicht mitprogrammieren und testen, denn dieser Kurs zeichnet sich durch eine nahtlose Integration von GitHub Codespaces, einer cloudbasierten Entwicklungsumgebung (IDE), aus.
@@ -11,6 +11,7 @@ Die Installation und Aktivierung der Sandbox wird zum Start des Kurses ausführl
 ## Anleitung
 
 Dieser Kurs ist in GitHub Codespaces integriert, eine sofort verfügbare Cloud-Entwicklungsumgebung, die alle Funktionen Ihrer bevorzugten IDE bietet, ohne dass Sie einen lokalen Rechner einrichten müssen. Mit Codespaces können Sie von jedem Rechner aus und zu jeder Zeit praktische Übungen durchführen - und dabei ein Tool verwenden, das Ihnen häufig in der Praxis begegnen wird. 
+
 Jede Folge der Level Up Serie bietet mindestens 12 praktische Übungen in verschiedenen Schwierigkeitsgraden, so dass Sie sich selbst herausfordern und das Gelernte festigen können. Schauen Sie sich das Video " Wie verwende ich GitHub Codespaces mit diesem Kurs?" an, um zu erfahren, wie man einen Codespace einrichtet und zum Einsatz bringt.
 
 So rätseln Sie mit:

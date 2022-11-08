@@ -2,7 +2,7 @@
 
 Dies ist das Repository für den **LinkedIn Learning** Kurs `Code-Challenges für JavaScript`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-![image](https://user-images.githubusercontent.com/61017085/199515008-d682573e-cd4d-46d9-b9c2-142f4f8f2dde.png) 
+![2508144_de_DE_TN](https://user-images.githubusercontent.com/61017085/200604206-5b73a849-abaa-478d-9134-82608537ddbe.jpg)
 
 Hinter den Code-Challenges stecken kompakte spannende Programmierrätsel auf unterschiedlichen Schwierigkeitsstufen, mit denen Sie Ihre JavaScript-Skills testen oder weitere neu hinzulernen können. Dazu zählen Reguläre Ausdrücke, Generator Functions, Array Reduce, Array Filter und andere praktische Themen aus dem Programmieralltag.
 Zu jeder Aufgabe liefert Ihr Trainer Thomas Rose gleich die passende Lösung, doch können Sie auch Ihren Lösungsweg ganz leicht mitprogrammieren und testen, denn dieser Kurs zeichnet sich durch eine nahtlose Integration von GitHub Codespaces, einer cloudbasierten Entwicklungsumgebung (IDE), aus.
@@ -12,7 +12,7 @@ Die Installation und Aktivierung der Sandbox wird zum Start des Kurses ausführl
 
 Dieser Kurs ist in GitHub Codespaces integriert, eine sofort verfügbare Cloud-Entwicklungsumgebung, die alle Funktionen Ihrer bevorzugten IDE bietet, ohne dass Sie einen lokalen Rechner einrichten müssen. Mit Codespaces können Sie von jedem Rechner aus und zu jeder Zeit praktische Übungen durchführen - und dabei ein Tool verwenden, das Ihnen häufig in der Praxis begegnen wird. 
 
-Jede Folge der Level Up Serie bietet mindestens 12 praktische Übungen in verschiedenen Schwierigkeitsgraden, so dass Sie sich selbst herausfordern und das Gelernte festigen können. Schauen Sie sich das Video " Wie verwende ich GitHub Codespaces mit diesem Kurs?" an, um zu erfahren, wie man einen Codespace einrichtet und zum Einsatz bringt.
+Jede Folge der Code-Challenges-Serie bietet mindestens 12 praktische Übungen in verschiedenen Schwierigkeitsgraden, so dass Sie sich selbst herausfordern und das Gelernte festigen können. Schauen Sie sich das Video " Wie verwende ich GitHub Codespaces mit diesem Kurs?" an, um zu erfahren, wie man einen Codespace einrichtet und zum Einsatz bringt.
 
 So rätseln Sie mit:
 1. Sehen Sie sich im Kurs auf LinkedIn Learning die Aufgabenstellung an
@@ -47,5 +47,5 @@ Um mitzurätseln und die Aufgaben selbst zu lösen, legen Sie sich einen eigenen
 Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/thomas-rose) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
+[lil-course-url]: https://www.linkedin.com/learning/code-challenges-fur-javascript
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg

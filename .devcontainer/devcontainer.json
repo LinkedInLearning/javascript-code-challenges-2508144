@@ -13,9 +13,6 @@
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
-			"settings": { 
-				"java.home": "/docker-java-home"
-			},
 			"extensions": [
 				"vscjava.vscode-java-pack",
 				"GitHub.github-vscode-theme"
@@ -23,7 +20,8 @@
 		}
 	},
 	"remoteUser": "vscode",
-	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
+	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+	"postCreateCommand": "npm install"
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference

@@ -1,6 +1,5 @@
 function redistributeWealth(wealth) {
   // Write your code here
-  // Ein Test wie das Forken funktioniert - wo wird das gespeichert?
 
 }
 

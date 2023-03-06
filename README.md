@@ -2,7 +2,7 @@
 
 Dies ist das Repository für den **LinkedIn Learning** Kurs `Code-Challenges für JavaScript`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-![2508144_de_DE_TN](https://user-images.githubusercontent.com/61017085/200604206-5b73a849-abaa-478d-9134-82608537ddbe.jpg)
+![COURSENAME][lil-thumbnail-url] 
 
 Hinter den Code-Challenges stecken kompakte spannende Programmierrätsel auf unterschiedlichen Schwierigkeitsstufen, mit denen Sie Ihre JavaScript-Skills testen oder weitere neu hinzulernen können. Dazu zählen Reguläre Ausdrücke, Generator Functions, Array Reduce, Array Filter und andere praktische Themen aus dem Programmieralltag.
 Zu jeder Aufgabe liefert Ihr Trainer Thomas Rose gleich die passende Lösung, doch können Sie auch Ihren Lösungsweg ganz leicht mitprogrammieren und testen, denn dieser Kurs zeichnet sich durch eine nahtlose Integration von GitHub Codespaces, einer cloudbasierten Entwicklungsumgebung (IDE), aus.
@@ -48,4 +48,4 @@ Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linke
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/code-challenges-fur-javascript
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4D0DAQFfciAk_hImTw/learning-public-crop_675_1200/0/1668097238524?e=2147483647&v=beta&t=VsnOH7vp9OyRM8cboRJpTNoYoMV8XXAqCAky32N0N_s
